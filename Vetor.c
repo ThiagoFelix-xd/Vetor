@@ -13,7 +13,7 @@ setlocale(LC_ALL, "Portuguese");
         scanf("%d", &vetor[i]);
         vetor[i] = 2 * vetor[i];
     }
-
+
     printf("Valores dobrados:\n");
     for (i = 0; i < 10; i++) {
         printf("Posição %d: %d\n", i + 1, vetor[i]);
