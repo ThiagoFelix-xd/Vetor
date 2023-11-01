@@ -1,11 +1,15 @@
 #include <stdio.h>
+#inclube <stdlib.h>
+#include <locale.h>
+
 
 int main() {
+setlocale(LC_ALL, "Portuguese");
     int vetor[10];
     int i;
 
     for (i = 0; i < 10; i++) {
-        printf("Digite o número na posição %d: ", i + 1);
+        printf("Digite o nÃºmero na posiÃ§Ã£o %d: ", i + 1);
         scanf("%d", &vetor[i]);
         vetor[i] = 2 * vetor[i];
     }
@@ -13,7 +17,7 @@ int main() {
     // Apresentara os resultados //
     printf("Valores dobrados:\n");
     for (i = 0; i < 10; i++) {
-        printf("Posição %d: %d\n", i + 1, vetor[i]);
+        printf("PosiÃ§Ã£o %d: %d\n", i + 1, vetor[i]);
     }
 
     return 0;
