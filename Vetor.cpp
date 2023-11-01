@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inclube <stdlib.h>
+#include <stdlib.h>
 #include <locale.h>
 
 
